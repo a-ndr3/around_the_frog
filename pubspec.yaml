@@ -1,0 +1,23 @@
+name: around_the_frog
+description: "Around the Frog"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_3d_controller: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_cube: ^0.1.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/teapot.obj
